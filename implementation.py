@@ -43,6 +43,7 @@ def build_similarity_matrix(sentences, stop_words):
     return similarity_matrix
 
 def summary(txt, top_n=5):
+    nltk.download("stopwords")
     stop_words = stopwords.words('english')
     summarized_text = []
     sentences =  read_para(txt)
