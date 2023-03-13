@@ -34,6 +34,6 @@ How to use:
 - Call the summary() function with the input file name and the number of sentences required as input.
 
 Example:
-            summary( "msft.txt", 2)
+            summary( "article.txt", 2)
             
-This will generate a summary of the file "msft.txt" consisting of the top 2 sentences.
+This will generate a summary of the file "article.txt" consisting of the top 2 sentences.
