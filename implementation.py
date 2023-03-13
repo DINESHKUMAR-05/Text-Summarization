@@ -58,13 +58,10 @@ def summary(txt, top_n=5):
     
 import streamlit as st
 st.title("Text Summarizer using Streamlit")
-
-# File upload widget
 file = st.file_uploader("Upload file", type=["txt"])
 no_para=st.text_input("Enter the size of summarized paragraph :")
 if file is not None:
     if no_para is not None and len(no_para)>0:
-    # Read file contents as a string
         content = file.read().decode("utf-8")
         st.subheader("Summarized Text : ")
         st.markdown(summary(content,int(no_para)))
