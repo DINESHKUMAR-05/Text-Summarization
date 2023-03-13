@@ -22,7 +22,7 @@ Functions:
 3) build_similarity_matrix(sentences, stop_words):
     This function builds a similarity matrix between all the sentences in the text file using the sentence_similarity() function.
 
-4) summary(file_name, top_n)
+4) summary(file_name, top_n):
     This function takes a text file name and the number of top sentences to be included in the summary as input. It uses all the above functions to generate a summary of the input text file.
 
 
