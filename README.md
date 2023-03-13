@@ -9,8 +9,6 @@ This project implements a summary generator using the concept of Cosine Similari
 Libraries used:
   - nltk
   - numpy
-  - networkx
-
 
 
 Functions:
