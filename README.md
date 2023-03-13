@@ -1,5 +1,7 @@
 It is hard for humans to manually extract the summary of a really large documents. So in those cases we can use text summarizers . Text summarizer identifies the meaningful information in a document and summarizes it by preserving the overall meaning. This code presents a shorter version of the original text while preserving the semantics of the whole document. Cosine Distance is used as similarity measure to identify the similarity between two sentences. By this way a similarity matrix is created. Using the similarity matric the Top k important sentences are taken to form a summary of the whole text.
 
+We have used Streamlit Framework to present the summarizer with a attractive UI.
+
 
 
 This project implements a summary generator using the concept of Cosine Similarity. It reads a text file, generates a similarity matrix across the sentences in the file, ranks the sentences based on their similarity score, and returns the top n sentences as the summary of the input text file.
@@ -10,6 +12,7 @@ Libraries used:
   - nltk
   - numpy
   - networkx
+  - streamlit
 
 
 Functions:
